@@ -16,7 +16,7 @@ const OrderTabs: React.FC<OrderTabsProps> = ({ activeTab, onTabChange }) => {
   ];
 
   return (
-    <div className="border-b border-gray-200 mb-6">
+    <div className="border-b border-gray-200 mb-6 max-w-screen overflow-auto">
       <nav className="-mb-px flex space-x-8">
         {tabs.map((tab) => (
           <button
